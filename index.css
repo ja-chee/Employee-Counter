@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 30px;
+    height: 100vh;
+    background-image: url(train2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.max-width{
+    background: #fff;
+    max-width: 530px;
+    margin: auto; 
+    padding: 0 10px;
+    border: 6px solid #385a64;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px rgba(0,0,0,0.8);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #d61c47;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #d61c47;
+}
+
+button {
+    border: none;
+    background: #d61c47;
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 140px;
+    margin-bottom: 5px;
+    border-radius: 24px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#increment-btn {
+    /* background: rgb(0, 65, 139); */
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+#increment-btn:hover {
+    transform: scale(0.9);
+}
+
+#save-btn {
+    /* background: darkgreen; */
+    margin-left: 5px;
+
+    transition: 0.3s;
+}
+
+#save-btn:hover {
+    transform: scale(0.9);
+}
+#count-el {
+    margin-top: -10px;
+}
